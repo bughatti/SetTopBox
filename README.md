@@ -32,7 +32,7 @@ Now lest go into the settings of Kodi and enable TV, this will scan for a backen
 Install Skin Skin Confluence Hybrid Helix
 
 Now lets go to programs and install some addons before we get Pseudo TV setup.
-Open Addon Installer, click on Featured Addons then click on USTVnow and install.  Now we want to search for a few others.  Under addon installer click on search and type the below in, 1 at a time exactly as I have them
+Open Addon Installer, click on Featured Addons then click on USTVnow Live and install.  Now we want to search for a few others.  Under addon installer click on search and type the below in, 1 at a time exactly as I have them
 
 -plugin.program.super.favourites
 
@@ -50,7 +50,7 @@ Open Addon Installer, click on Featured Addons then click on USTVnow and install
 
 -artwork downloader mp
 
-now lets exit Kodi and open it back up.  Head over to Programs and click on USTVnow and it will ask you to put in your log in credentials and select your plan, hit ok
+now lets exit Kodi and open it back up.  Head over to Programs and click on USTVnow Live and it will ask you to put in your log in credentials and select your plan, hit ok
 
 now lets go back to addons and install from zip this file https://github.com/Lunatixz/XBMC_Addons/raw/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip then go back to install from repo and select Lunatixz repo then porgram addons then pseudo tv live
 
