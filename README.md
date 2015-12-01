@@ -1,7 +1,7 @@
 # SetTopBox
 Addons and instructions for a cut the cord set top box
 
-********************** Below Instructions are a work in progress, do not use until marked complete **********************************
+*****Below Instructions are a work in progress, do not use until marked complete *****
 
 Guide to setting up a set top box with pseudo tv and kodi
 
@@ -22,7 +22,10 @@ Lets head over to USTVnow and signup for the free plan.  It will allow you to si
 
 Time to get Kodi setup.  I run them on Win 10 boxes in my house, I also just purchased a Intel NUC I3 with 8gb of ram and an SSD.  This may not be viable for most as it is a very expensive setup.  I plan to have 3 of them running in my house running on a LAN cable, most people may like WIFI but as an IT person, I can promise your experiance over WIFI will not be as good as LAN.  I also run Emby on a linux VM and Couchpotato/Sickrage/headphones on a seperate linux vm.  I have all this because I plan to cut the cord soon and saving 120 a month, you can easily pay for a Intel NUC in 3 months savings.
 
-So during my rambling, you should have gotten Kodi installed on whatever platform you plan to use.  First things first.  I like to get a few small but major addons installed first.  Lets get fusion installed https://seo-michael.co.uk/how-to-install-fusion-for-xbmc/ so we can get the addon installer.  Now lets get SuperRepo installed https://seo-michael.co.uk/how-to-install-superrepo-for-xbmc/ and get the Isengard all repository installed.  Now lets get the Emby kodi addon installed https://emby.media/downloads/emby-for-kodi/ download the repo and install from zip, then go to install from repo and select program add ons and install emby server, configure it with the IP of the emby server you setup and the username.  Once connected it will start to scan media, let it scan even if it takes a while.
+So during my rambling, you should have gotten Kodi installed on whatever platform you plan to use.  First things first.  I like to get a few small but major addons installed first.  
+Lets get fusion installed https://seo-michael.co.uk/how-to-install-fusion-for-xbmc/ so we can get the addon installer.  
+Now lets get SuperRepo installed https://seo-michael.co.uk/how-to-install-superrepo-for-xbmc/ and get the Isengard all repository installed.  
+Now lets get the Emby kodi addon installed https://emby.media/downloads/emby-for-kodi/ download the repo and install from zip, then go to install from repo and select program add ons and install emby server, configure it with the IP of the emby server you setup and the username.  Once connected it will start to scan media, let it scan even if it takes a while.
 
 Now lest go into the settings of Kodi and enable TV, this will scan for a backend PVR and will fail because it is not setup.  When it asks to set one up click ok and select NextPVR, click configure and set the IP to the nextpvr client we setup earlier.  Now click on enable for nextpvr
 
@@ -32,18 +35,22 @@ Now lets go to programs and install some addons before we get Pseudo TV setup.
 Open Addon Installer, click on Featured Addons then click on USTVnow and install.  Now we want to search for a few others.  Under addon installer click on search and type the below in, 1 at a time exactly as I have them
 
 -plugin.program.super.favourites
+
 -plugin.video.youtube
+
 -plugin.video.vimeo
+
 -for vevo_tv you need to download this repo and install from repo VEVO TV https://code.google.com/p/addonscriptorde-beta-repo/downloads/detail?name=repository.addonscriptorde-beta.zip&can=2&q=
+
 -for my_music_tv same as above, use the testing repo and install MY MUSIC TV
+
 -playonbrowser install this zip https://github.com/sytone/plugin.video.playonbrowser 
 
-
--trakt.py
 -trakt viewer
+
 -artwork downloader mp
 
-now lets exit Kodi and open it back up.  Head over to Porgrams and click on USTVnow and it will ask you to put in your log in credentials and select your plan, hit ok
+now lets exit Kodi and open it back up.  Head over to Programs and click on USTVnow and it will ask you to put in your log in credentials and select your plan, hit ok
 
 now lets go back to addons and install from zip this file https://github.com/Lunatixz/XBMC_Addons/raw/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip then go back to install from repo and select Lunatixz repo then porgram addons then pseudo tv live
 
